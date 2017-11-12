@@ -18,3 +18,7 @@ alternately, if one wanted to use the `loop_one.sh` script and not `loop_one.sh`
 
 
 ### running python script on startup
+
+ALMOST EXACTLY THE SAME ZOMG BUT HERE IS THE ONE IMPORTANT THING TO PAY ATTENTION TO
+
+write the things
