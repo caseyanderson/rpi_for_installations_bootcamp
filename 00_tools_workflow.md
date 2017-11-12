@@ -21,7 +21,7 @@ Do you have Xcode? To check go to the terminal and execute `xcode-select -p`.
 
 Enter `xcode-select --install` into the terminal, which should result in something like this:
 
-<img src="/assets/xcode-select_install_cmnd_line_tools.png" width="630" height="375">
+<img src="/media/xcode-select_install_cmnd_line_tools.png" width="630" height="375">
 
 Click `Install` to download and install the `Xcode Command Line Tools` (it takes a while so maybe go make some food or get a cup of coffee or something).
 
@@ -37,7 +37,7 @@ Copy and paste this code into the terminal and press `enter` to install [homebre
 
 If prompted, agree to the Xcode license
 
-<img src="/assets/agree_to_xcode_license.png" width="630" height="375">
+<img src="/media/agree_to_xcode_license.png" width="630" height="375">
 
 by executing `sudo xcodebuild -license` in the terminal.
 
