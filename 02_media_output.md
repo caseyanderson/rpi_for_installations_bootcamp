@@ -5,7 +5,7 @@ Note: mad props to [this](https://oshlab.com/raspberry-pi-fireplace-video-looper
 The Raspberry Pi is an excellent low-cost, reliable video looper, particularly for situations in which the video needs to "loop forever" and do so automatically on boot. Below are instructions for running the raspberry pi over the command line (via `ssh` or `screen`), also known as running "headless."
 
 
-### omxplayer
+### omxplayer (video)
 
 OMXPlayer is the recommended [command line](https://en.wikipedia.org/wiki/Command-line_interface) video player for `raspbian`. One can download and install it via `aptitude`: `sudo apt-get install omxplayer`
 
@@ -70,19 +70,6 @@ With minimal alterations, and a bit of setup, one can make a `bash` file that ru
 8. back on your pi, make `loop_one.sh` executable with `chmod`: `chmod +x loop_one.sh`
 9. run `loop_one.sh` with the following command `./loop_one.sh`
 10. `Control-C` (KeyboardInterrupt) to exit loop
-
-
-### looping all videos in a playlist forever
-
-1. on your mac make a new file called `loop_all.sh`: `touch loop_all.sh`
-2. open it with your preferred text editor  (again, I use Atom so it looks like this when I do it): `atom loop_all.sh`
-3. Copy the code from [this](https://github.com/caseyanderson/rpi/blob/master/02_VideoLooper/loop_scripts/loop_all.sh) file and paste it all into your `loop_all.sh` file (then save and exit)
-4. send `loop_all.sh` to your raspberry pi: `scp loop_all.sh pi@<PI_IP_ADDRESS>:/home/pi/`
-5. move the file into the `videolooper` directory: `mv loop_all.sh videolooper/loop_all.sh`
-6. update `loop_all.sh` to include the correct path and filename information (via `nano` or `vi`) stored at `VIDEOPATH`
-7. make `loop_all.sh` executable with `chmod`: `chmod +x loop_all.sh`
-8. run `loop_all.sh` with the following command `./loop_all.sh`
-9. `Control-C` (KeyboardInterrupt) to exit loop
 
 
 ### running loop script on startup

@@ -2,8 +2,6 @@
 
 ### parallel development environments
 
-In this class we will work across two environments to complete prototypes:
-
 1. a laptop: your primary work space, you should always start exploring/testing your idea by writing code on your laptop to confirm general functionality
 2. a Raspberry Pi: move your generally-functional code to your Raspberry Pi for platform-specific tests and, eventually, deployment.
 
