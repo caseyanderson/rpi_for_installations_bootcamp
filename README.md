@@ -6,6 +6,6 @@ This repository contains lecture notes and scripts for a workshop focusing on Ra
 * video switcher
 * sensor input
 * toggle lights/simple devices on/off
-* deployment strategies (i.e. launch on startup and run forever)
+* deployment strategies (i.e. automatically launch on startup, run forever)
 
 All content by Casey Anderson unless otherwise indicated.
