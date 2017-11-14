@@ -19,6 +19,6 @@ alternately, if one wanted to use the `loop_one.sh` script and not `loop_one.sh`
 
 ### running python script on startup
 
-ALMOST EXACTLY THE SAME ZOMG BUT HERE IS THE ONE IMPORTANT THING TO PAY ATTENTION TO
+Fortunately running a `python 3` script on startup is almost identical to running a `bash` script, so the steps above work for both with one small change:
 
-write the things
+The `rc.local` line to run a `python 3` file should read: `su -c "python3 /path/to/file.py" pi &`
