@@ -1,4 +1,4 @@
-## Raspberry Pi 3 for Installations Bootcamp
+## RPi 3 for Installations Bootcamp
 
 This repository contains lecture notes and scripts for a workshop focusing on Raspberry Pi 3 for media installations. In other words, the basics of Unix, Bash, Python3, and Linux are introduced in the context of common media/art installation needs. These include:
 

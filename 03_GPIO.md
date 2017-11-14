@@ -172,4 +172,4 @@ except KeyboardInterrupt:
 
 ## control LARGE things!
 
-By repurposing the `button_LED.py` code from above, and replacing the `LED` with an `AC/DC Control Relay Device`, like [this](https://dlidirect.com/collections/frontpage/products/iot-power-relay) one, one can create causal relationships between Media, Electrical things, and the activity of a person.
+By repurposing the `button_LED.py` code from above, and replacing the `LED` with an `AC/DC Control Relay Device`, like [this](https://dlidirect.com/collections/frontpage/products/iot-power-relay) one, one can create causal relationships between Media, Electrical things, and the activity of a person.d
